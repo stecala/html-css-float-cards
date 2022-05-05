@@ -12,14 +12,17 @@ body{
 }
 
 /*header*/
-.max-cont{
+
+
+h1, .head-text, main{
     max-width: 80%;
     margin: 0% 10%;
 }
+
 h1{
     text-align: center;
     color: deeppink;
-    margin: 20px;
+    padding: 20px 0px;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -56,8 +59,6 @@ img{
     color: white;
     width: 80%;
     line-height: 35px;
-    min-width: 80%;
-
 }
 
 a{
