@@ -71,3 +71,8 @@ h3{
     font-size: 18px;
 }
 
+.clearfix::after{
+    display:table;
+    clear:both;
+    content:'';
+}
